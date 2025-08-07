@@ -8,6 +8,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Первая Шахматная Школа',
   description: '',
+  icons: {
+    icon: "/favicon.png",
+  },
 }
 
 export default function RootLayout({
