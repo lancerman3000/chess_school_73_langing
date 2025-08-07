@@ -200,7 +200,7 @@ export function Enrollment() {
                       </div>
                       <div>
                         <p className="font-medium text-gray-900 text-sm sm:text-base">Телефон</p>
-                        <p className="text-gray-600 text-sm sm:text-base">+7 (842) 123-45-67</p>
+                        <p className="text-gray-600 text-sm sm:text-base">+7 (960) 368-46-73</p>
                       </div>
                     </div>
                     <div className="flex items-center space-x-3">
@@ -209,7 +209,7 @@ export function Enrollment() {
                       </div>
                       <div>
                         <p className="font-medium text-gray-900 text-sm sm:text-base">WhatsApp</p>
-                        <p className="text-gray-600 text-sm sm:text-base">+7 (842) 123-45-67</p>
+                        <p className="text-gray-600 text-sm sm:text-base">+7 (960) 368-46-73</p>
                       </div>
                     </div>
                     <div className="flex items-center space-x-3">
