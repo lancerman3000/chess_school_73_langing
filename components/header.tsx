@@ -20,8 +20,8 @@ export function Header() {
       <div className="container mx-auto px-3 sm:px-4 py-3 sm:py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="w-7 h-7 sm:w-8 sm:h-8 bg-amber-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-base sm:text-lg">♔</span>
+            <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center">
+              <img src="/logo.png" alt="Первая Шахматная Школа" />
             </div>
             <span className="text-base sm:text-xl font-bold text-gray-900 leading-tight">Первая Шахматная Школа</span>
           </div>
