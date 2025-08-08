@@ -81,7 +81,7 @@ export function Hero() {
                 width={500}
                 height={500}
                 // fill
-                className="w-full h-full object-cover rounded-xl sm:rounded-2xl"
+                className="object-cover rounded-xl sm:rounded-2xl"
               />
             </div>
             <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-white p-4 sm:p-6 rounded-xl sm:rounded-2xl shadow-xl">
