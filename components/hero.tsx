@@ -2,6 +2,8 @@
 import { Button } from "@/components/ui/button"
 import { Crown, Trophy, Users } from "lucide-react"
 import { yearsEST } from '@/lib/utils';
+import Image from 'next/image';
+
 
 export function Hero() {
   const scrollToEnrollment = () => {
@@ -73,9 +75,12 @@ export function Hero() {
 
           <div className="relative mt-8 lg:mt-0">
             <div className="aspect-square bg-gradient-to-br from-amber-400 to-orange-500 rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-2xl">
-              <img
-                src="/trainer.png?height=500&width=500"
+              <Image
+                src="/trainer.png"
                 alt="Шахматная доска"
+                width={500}
+                height={500}
+                // fill
                 className="w-full h-full object-cover rounded-xl sm:rounded-2xl"
               />
             </div>

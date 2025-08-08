@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Award, BookOpen, Target, Users2 } from "lucide-react"
 import { yearsEST } from '@/lib/utils';
+import Image from 'next/image';
 
 
 export function About() {
@@ -92,11 +93,14 @@ export function About() {
               </div>
             </div>
             <div className="relative mt-6 lg:mt-0">
-              <img
-                src="/kid.png?height=400&width=400"
-                alt="Занятия в первой шахматной школе для детей и взрослых"
-                className="w-full h-64 sm:h-80 object-cover rounded-xl sm:rounded-2xl shadow-lg"
-              />
+              <div className="relative w-full h-64 sm:h-80">
+                <Image
+                  src="/kid.png"
+                  alt="Занятия в первой шахматной школе для детей и взрослых"
+                  fill
+                  className="object-cover rounded-xl sm:rounded-2xl shadow-lg"
+                />
+              </div>
             </div>
           </div>
         </div>
