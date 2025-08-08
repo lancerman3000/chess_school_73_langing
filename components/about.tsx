@@ -93,7 +93,7 @@ export function About() {
             </div>
             <div className="relative mt-6 lg:mt-0">
               <img
-                src="/kid.jpg?height=400&width=400"
+                src="/kid.png?height=400&width=400"
                 alt="Занятия в первой шахматной школе для детей и взрослых"
                 className="w-full h-64 sm:h-80 object-cover rounded-xl sm:rounded-2xl shadow-lg"
               />
