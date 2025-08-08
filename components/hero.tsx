@@ -78,8 +78,8 @@ export function Hero() {
               <Image
                 src="/trainer.png"
                 alt="Шахматная доска"
-                width={500}
-                height={500}
+                width={800}
+                height={800}
                 // fill
                 className="object-cover rounded-xl sm:rounded-2xl"
               />
